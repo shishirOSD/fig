@@ -1,0 +1,291 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  font-size: 14px;
+  line-height: 1.7em;
+  font-family: "Poppins", serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    width: 100%;
+    padding: 10px 0px 40px;
+    background: #F0FFF0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color:#000 ;
+    margin: 0px 15px;
+    font-family: "Poppins", serif;
+}
+
+
+
+
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #21B573;
+    margin: 0px 0px 0px 20px;
+    transition: 1s;
+    
+
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success:hover {
+  color: #fff;
+  background: #FBD15B;
+  border:1px solid #21B573 ;
+
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+.inner-banner h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FD511A;
+    line-height: 1.2em;
+
+}
+.inner-banner h1{
+    font-size: 52px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.2em;
+
+}
+.inner-banner h1 span{
+    color: #21B573;
+
+}
+.inner-banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#000;
+    line-height: 1.7em;
+
+
+}
+.inner-banner .btn-success{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #000;
+    margin: 10px 0px 0px 0px;
+    transition: 1s;
+    
+
+}
+.inner-banner .btn-success:hover {
+    color: #fff;
+    background: #FBD15B;
+    border:1px solid #21B573 ;
+  
+  }
+  .feature{
+    width: 100%;
+    padding: 80px 0px;
+  }
+.feature .inner-feature{
+    width: 100%;
+    padding: 60px 40px;
+    text-align: center;
+    background: #F8FFFB;
+    border-radius: 10px;
+    transition: 1s;
+}
+.feature .inner-feature img{
+    width: 66px;
+    height: 85px;
+    margin: 0px 0px 25px;
+}
+.feature .inner-feature h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #000;
+    margin: 0px;
+
+}
+.feature .inner-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 0px;
+}
+.feature .inner-feature:hover{
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.online-course{
+    width: 100%;
+    padding: 80px 0px;
+}
+.online-course .title{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.4em;
+    margin: 0px 0px 40px;
+
+
+}
+.online-course .card{
+padding: 15px;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+ border: 0px;
+ border-radius: 10px;
+}
+.online-course .card .card-img-top{
+
+}
+.online-course .card .card-body{
+padding:10px 0px;
+}
+.online-course .card .card-body .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #000;
+    margin: 10px 0px 5px;
+    text-transform: uppercase;
+}
+.online-course .card .card-body .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+
+}
+.online-course .card .card-body .btn-success{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: #fff;
+    background: #21B573;
+    border: 1px solid #21B573;
+    margin: 0px;
+   
+    transition: 1s;
+}
+.online-course .card .card-body .btn-success:hover{
+    color: #fff;
+    background: #FBD15B;
+    border:1px solid #21B573 ;
+}
+.online-course .card .card-body .info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #585859;
+    margin: 20px 0px;
+    
+}
+.online-course .card .card-body .info img{
+    width: 14px;
+    margin-right: 5px;
+}
+.text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial .title{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.4em;
+    margin: 0px 0px 40px;
+
+
+}
+.testimonial .client{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial .textrt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #000;
+    margin: 10px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background-color: #282531;
+
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+}
+.widget{
+    width: 100%;
+}
+.widget li{
+    list-style: none;
+    display: block;
+}
+.widget li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0px 0px 10px;
+    font-weight: 400;
+}
+.widget li .active{
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+.copyright{
+    width: 100%;
+    padding: 35px 15px;
+
+}
+.copyright p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+    margin: 0px;
+}
